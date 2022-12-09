@@ -1,0 +1,72 @@
+.box{
+    border: 2px solid black;
+}
+.container{
+    border: 2px solid black;
+}
+
+.foot{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: 18px;
+    font-size: 40px
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#image, #gil{
+    margin: 15px 60px 60px 60px;
+}
+.a{
+    font-size: 40px;
+    text-align: center;
+}
+.social{
+    font-size: 40px;
+}
+.project{
+    margin: 20px 0px;
+    font-size: 32px;
+}
+
+.inside{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    
+}
+.margin{
+    display: flex;
+}
+
+.table{
+    border: 2px solid black;
+    width: 100%;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+}
+
+@media screen and (max-width:754px){
+    .something{
+        font-size : 25px !important;
+        /* color : blue !important; */
+    }
+}
